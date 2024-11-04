@@ -8,11 +8,51 @@
     <!-- Connects Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Connection -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+        body {
+            font-family: "Lexend", sans-serif;
+            font-optical-sizing: auto;
+            /* font-weight: <weight>;
+            font-style: normal; */
+        }
+    </style>
 </head>
 
 <body>
     <header>
+        <!-- navBar started -->
 
+        <div class="navbar bg-base-100 flex justify-around pt-4 pb-4 bg-orange-50 mb-16">
+            <div class="">
+                <button class="bg-lime-300 rounded-lg">
+                    <h3 class="py-3 px-6 font-semibold">Blog</h3>
+                </button>
+            </div>
+
+
+            <div class=" items-center">
+                <img src="images/logo.png" alt="" height="45px" width="45px">
+                <p class="ms-3 font-semibold text-black text-xl">Donate Bangladesh</p>
+            </div>
+
+
+            <div class="">
+                <img src="images/coin.png" alt="">
+                <p class="ms-3 font-medium text-gray-400 text-xl">5500 BDT</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center gap-5">
+            <button class="px-4 py-2 border bg-lime-300 rounded-md font-bold">Donation</button>
+            <button class="px-4 py-2 border bg-slate-50 rounded-md text-slate-500">History</button>
+        </div>
+   
+        <!-- navBar End -->
     </header>
 
     <main>
